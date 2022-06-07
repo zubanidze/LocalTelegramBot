@@ -25,7 +25,7 @@ namespace TelegramBot
 
         static void Main(string[] args)
         {
-            string tokenValue = "1680338133:AAGMYEWsEeq04ry4WQhG6CmzYBfEYAk1ezs"; //put your token here
+            string tokenValue = ""; //put your token here
             botClient = new TelegramBotClient(tokenValue);
             var me = botClient.GetMeAsync().Result;
             Console.WriteLine(
